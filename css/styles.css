@@ -20,6 +20,10 @@ body {
   text-align: center;
 }
 
+#success-message {
+  color: green;
+}
+
 h1 {
   text-transform: uppercase;
 }
@@ -55,14 +59,14 @@ button {
     right: 0;
     width: 80vw;
     margin: 0 auto;
-    padding: 10vw;
+    padding: 5vw 10vw 10vw 10vw;
   }
 
   h1 {
     font-size: 4rem;
   }
 
-  #subtitle {
+  #subtitle, #success-message {
     font-size: 2rem;
   }
 
@@ -89,7 +93,7 @@ button {
     top: 10vh;
     left: 10vh;
     width: 30vw;
-    padding: 10vh;
+    padding: 5vw 10vw 10vw 10vw;
     margin: 0;
   }
 
@@ -97,7 +101,7 @@ button {
     font-size: 2rem;
   }
 
-  #subtitle {
+  #subtitle, #success-message {
     font-size: 1.3rem;
   }
 
